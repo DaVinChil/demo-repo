@@ -1,3 +1,3 @@
 # demo-repo
 
-your lords
+your lord

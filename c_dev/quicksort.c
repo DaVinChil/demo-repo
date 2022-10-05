@@ -13,13 +13,12 @@ int main(){
 }
 
 void qqsort(int *arr, int left, int right){
-    int i , wall;
 
     if(left+1 >= right)
         return;
 
-    wall = left;
-    for(i = left; i < right; i++)
+    int wall = left;
+    for(int i = left; i < right; i++)
         if(arr[i] < arr[right])
             swap(arr, wall++, i);
     
